@@ -1,3 +1,8 @@
 */node_modules
 parking_lot/node_modules
 ticTacToe/node_modules
+node_modules/
+dist/
+.env
+*.log
+.DS_Store
