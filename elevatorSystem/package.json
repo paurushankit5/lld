@@ -1,0 +1,24 @@
+{
+  "name": "elevator-system-lld",
+  "version": "1.0.0",
+  "description": "Scalable elevator system design in TypeScript for LLD interviews",
+  "main": "dist/simulation.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/simulation.js",
+    "dev": "ts-node src/simulation.ts"
+  },
+  "keywords": [
+    "lld",
+    "elevator",
+    "typescript",
+    "design"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
+
