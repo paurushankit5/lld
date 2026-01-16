@@ -1,0 +1,15 @@
+{
+  "name": "lld-movie-booking-system",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "ts-node movie.tsx",
+    "build": "tsc",
+    "start:node": "node dist/movie.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6",
+    "ts-node": "^10.9.1",
+    "@types/node": "^18.0.0"
+  }
+}

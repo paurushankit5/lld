@@ -1,0 +1,15 @@
+{
+  "name": "lld-parking-lot",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "ts-node ParkingLot.tsx",
+    "build": "tsc",
+    "start:node": "node dist/ParkingLot.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6",
+    "ts-node": "^10.9.1",
+    "@types/node": "^18.0.0"
+  }
+}
